@@ -1,4 +1,4 @@
-package br.com.etechoracio.exercicios.Enums;
+package br.com.etechoracio.exercicios.entity;
 
 public enum NivelDificuldadeEnum {
     FACIL,

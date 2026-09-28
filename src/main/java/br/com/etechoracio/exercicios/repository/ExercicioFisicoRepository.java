@@ -1,13 +1,11 @@
-package br.com.etechoracio.exercicios.Repository;
+package br.com.etechoracio.exercicios.repository;
 
+import br.com.etechoracio.exercicios.entity.ExercicioFisico;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-@Repository
 
+@Repository
 public interface ExercicioFisicoRepository
-        extends JpaRepository<ExercicioFisicoRepository, Long> {
+        extends JpaRepository<ExercicioFisico, Long> {
 
 }
-
-
-
